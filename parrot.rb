@@ -1,7 +1,3 @@
-def parrot(phrase)
-  if phrase == "Squawk!"
-    puts "Squawk!"
-  else 
+def parrot(phrase="Squawk!")
     puts phrase
-  end
 end
